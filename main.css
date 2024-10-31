@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header-bigbox{
+    margin-top: 70px;
+    display: flex;
+}
+.header-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-left: 467px;
+    list-style-type: none;
+}
+.header-item{
+    color: #363853;
+    font-family: "Rubik";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+    transition: 0.5s ease-in-out;
+}
+.header-item:nth-child(1){
+    color: #ff6838;
+}
+.header-item:hover{
+    background-color: white;
+    color: aqua;
+    text-shadow: 5px 5px 5px black;
+}
+.header-item:nth-child(5){
+   color: #ffffff;
+   background-color: #ff7a50;
+   width: 120px;
+   height: 50px;
+   text-align: center;
+   padding-top: 14.83px;
+   border-radius: 5px;
+}
+.hero1{
+    margin-top: 213px;
+}
+.hero1-tittle{
+    
+    font-family: "Rubik";
+font-size: 66px;
+font-weight: 500;
+line-height: 78px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: capitalize;
+width: 530px;
+}
+.hero1-img{
+    margin-top: -330px;
+    margin-left: 500px;
+}
+.hero1-text{
+    color: rgb(54, 56, 83);
+font-family: Rubik;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: capitalize;
+width: 513px;
+}
+.hero1-btn{
+    margin-right: 200px;
+    width: 163px;
+    height: 50.41px;
+    background-color: #ff7a50;
+    color: #ffffff;
+font-family: "Rubik";
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+border-radius: 5px;
+border: none;
+margin-top: 44px;
+transition: 0.5s ease-in-out;
+}
+.hero1-btn:hover{
+    background-color: red;
+    color: black;
+    text-shadow: 5px 5px 5px black;
+}
+.said{
+    margin-top: -300px;
+}
+.hero2-bigbox{
+    display: flex;
+}
+.hero2-img{
+    margin-top: 124px;
+    
+}
+.mina{
+    margin-top: 300px;
+}
+.hero2-title{
+    width: 384px;
+    font-family: "Rubik";
+font-size: 36px;
+font-weight: 500;
+line-height: 50px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: capitalize;
+}
+.hero2-text{
+    margin-top: 95px;
+    width: 449px;
+    color: rgb(54, 56, 83);
+font-family: "Rubik";
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
+.hero2-btn{
+    margin-top: 141px;
+    color: #ffffff;
+font-family: "Rubik";
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+border: none;
+height: 58px;
+width: 176px;
+
+
+border-radius: 30px 30px 1px 30px;
+
+/* Clor shadow */
+box-shadow: 0px 22px 40px 0px rgba(255, 104, 56, 0.19);
+/* Secondary */
+background-color: rgb(255, 122, 80);
+}
+
+.hero3-title{
+    margin-top: 44px;
+    font-family: "Rubik";
+font-size: 36px;
+font-weight: 500;
+line-height: 30px;
+margin-left: 450px;
+
+
+}
+.hero3-images{
+    display: flex;
+    margin-top: 50px;
+    gap: 43px;
+}
+.hero3-1image{
+    margin-top: 22px;
+    color: rgb(54, 56, 83);
+font-family: Rubik;
+font-size: 24px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
+.hero3-2image{
+    margin-top: 22px;
+    color: rgb(54, 56, 83);
+font-family: Rubik;
+font-size: 24px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
+.hero3-3image{
+    margin-top: 22px;
+    color: rgb(54, 56, 83);
+font-family: Rubik;
+font-size: 24px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
+.hero3-text1{
+    margin-top: 14px;
+    color: rgb(54, 56, 83);
+font-family: Rubik;
+font-size: 18px;
+font-weight: 300;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.hero3-text2{
+    margin-top: 14px;
+    color: rgb(54, 56, 83);
+font-family: Rubik;
+font-size: 18px;
+font-weight: 300;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
+.hero3-text3{
+    margin-top: 14px;
+    color: rgb(54, 56, 83);
+font-family: Rubik;
+font-size: 18px;
+font-weight: 300;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
+.hero4-title{
+    font-family: "Rubik";
+font-size: 36px;
+font-weight: 500;
+line-height: 50px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: capitalize;
+margin-top: 281px;
+}
+.hero4-text{
+    margin-top: 30px;
+    width: 538px;
+    color: rgb(54, 56, 83);
+font-family: "Rubik";
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
+.hero4-img{
+    margin-left: 600px;
+    margin-top: -300px;
+}
+.footer-bigbac{
+    margin-top: 110px;
+    border-radius: 20px;
+    background-color: rgb(255, 122, 80);
+    width: 1170px;
+    height: 312px;
+}
+.footer-title{
+    padding-top: 59px;
+    color: rgb(255, 255, 255);
+font-family: "Rubik";
+font-size: 40px;
+font-weight: 500;
+line-height: 47px;
+letter-spacing: 0%;
+text-align: center;
+}
+.form{
+    padding-left: 165px;
+    padding-top: 72px;
+}
+.input-field{
+    color: rgb(54, 56, 83);
+font-family: Rubik;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+padding-left: 43px;
+    border: none;
+    border-radius: 70px;
+    height: 78px;
+    width: 838px;
+}
+.btn{
+    padding-bottom:00px;
+    padding-left: 600px;
+    border: none;
+    height: 58px;
+    width: 191px;
+    border-radius: 70px;
+
+/* Secondary */
+background: rgb(255, 122, 80);
+color: rgb(255, 255, 255);
+font-family: "Rubik";
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+transition: 0.5s ease-in-out;
+}
+.btn:hover{
+    background-color: black;
+    color: red;
+    text-shadow: 5px 5px 5px red;
+}
+
+    
+
+
